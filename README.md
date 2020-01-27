@@ -2,6 +2,12 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/quiq/docker-registry-ui)](https://goreportcard.com/report/github.com/quiq/docker-registry-ui)
 
+### Quick Start
+
+```
+docker run -d -p 8000:8000 -v $PWD/config.yml:/opt/config.yml:ro --name=registry-ui quiq/docker-registry-ui
+```
+
 ### Overview
 
 * Web UI for Docker Registry 2.6+
