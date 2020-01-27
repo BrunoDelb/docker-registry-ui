@@ -5,6 +5,7 @@
 ### Quick Start
 
 ```
+wget https://raw.githubusercontent.com/BrunoDelb/docker-registry-ui/master/config.yml
 docker run -d -p 8000:8000 -v $PWD/config.yml:/opt/config.yml:ro --name=registry-ui quiq/docker-registry-ui
 ```
 
